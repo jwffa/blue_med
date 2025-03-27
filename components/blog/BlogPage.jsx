@@ -4,7 +4,7 @@ import Text from './Text'
 
 const BlogPage = () => {
   return (
-    <div className='max-w-screen-xl m-auto px-4'>
+    <div className='max-w-screen-xl m-auto px-4 mb-10'>
       <div className='w-full m-auto rounded-2xl mt-2'>
        <div className='flex flex-col lg:flex-row justify-between items-start gap-6'>
 
