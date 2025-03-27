@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className='w-full mb-10'>
         <div className='m-auto max-w-screen-xl pt-4 px-4 hidden  md:flex md:justify-between'>
           <div className='pr-3 w-1/4'>
-            <img className='cursor-pointer w-28' src="./icons/bluemed.png" alt="bluemed" />
+            <img className='cursor-pointer w-28' src="/icons/bluemed.png" alt="bluemed" />
           </div>
 
           <div className='flex flex-col px-4 w-1/4 border-l-1 border-[#0b2849]'>
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div className='px-12 mt-8'>
-          <img className='cursor-pointer w-28 md:hidden' src="./icons/bluemed.png" alt="bluemed" />
+          <img className='cursor-pointer w-28 md:hidden' src="/icons/bluemed.png" alt="bluemed" />
         </div>
         <FooterMob/>
       </footer>

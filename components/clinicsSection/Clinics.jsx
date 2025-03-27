@@ -3,12 +3,12 @@ import { Button } from '@headlessui/react'
 const clinicIcons = [
   {
     id: 0,
-    src: "../../clinicsICON/geomed.png",
+    src: "/clinicsICON/geomed.png",
     title: "ჯეო მედი"
   },
   {
     id: 1,
-    src: "../../clinicsICON/evex.png",
+    src: "/clinicsICON/evex.png",
     title: "ევექსი"
   }
 ]

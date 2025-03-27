@@ -24,11 +24,9 @@ const Header = () => {
       setFilteredResults([])
       return
     }
-
     const results = doctorsInstance.filter(name =>
       name.toLowerCase().includes(searchTerm.toLowerCase())
     )
-
     setFilteredResults(results)
   }, [searchTerm])
 
@@ -46,7 +44,6 @@ const Header = () => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 md:hidden" size={16} />
               
               <input
-                
                 type="text"
                 placeholder="ექიმი, სპეციალობა"
                 className="w-full text-sm sm:text-base pl-10 pr-4 py-1 border border-gray-300 rounded-full focus:outline-none focus:ring-1 focus:ring-[#0b2849]"
@@ -55,7 +52,6 @@ const Header = () => {
               />
             </div>
 
-            {/* dropdown results */}
             {filteredResults.length > 0 && (
               <div className="absolute w-full bg-white border border-gray-300 rounded-md shadow-md mt-1 max-h-40 overflow-auto z-50">
                 {filteredResults.map((name, index) => (

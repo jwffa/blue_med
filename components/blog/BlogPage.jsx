@@ -10,13 +10,13 @@ const BlogPage = () => {
 
         <div className='flex flex-col bg-white rounded-2xl py-12 px-7'>
           <h1 className='font-bold text-[#0b2849] text-2xl font-poppins'>მაღალი წნევის კონტროლის 10 გზა მედიკამენტების გარეშე</h1>
-          <img className='rounded-3xl mt-6 w-full' src="../../components/blog/pic/blog1.jpg" alt="blog" />
+          <img className='rounded-3xl mt-6 w-full' src="/picBlog/blog1.jpg" alt="blog" />
           <Text />
         </div>
 
           <div className='rounded-xl bg-white w-full px-7 py-4 lg:p-4 lg:w-1/2 h-[196px]'>
             <div className='flex items-start gap-3'>
-              <img className='w-16  object-center scale-110 rounded-full' src="../../doctorPics/manDoc.jpeg" alt="doctor" />
+              <img className='w-16  object-center scale-110 rounded-full' src="/doctorPics/manDoc.jpeg" alt="doctor" />
               <div className='flex flex-col gap-2'>
                 <p className='font-poppins font-bold text-sm'>ასლან აბაშიძე</p>
                 <p className='font-poppins text-sm text-[#00000080] whitespace-nowrap overflow-hidden text-ellipsis'>კარდიოლოგი</p>

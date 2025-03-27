@@ -5,7 +5,7 @@ const DoctorCard = ({ doctor }) => (
     <div className="self-center w-32 h-32">
       <img
         className="w-full h-full rounded-[6px] object-cover"
-        src={doctor.gender === "მამრობითი" ? "../../doctorPics/manDoc.jpeg" : "../../doctorPics/womanDoc.jpeg"}
+        src={doctor.gender === "მამრობითი" ? "/doctorPics/manDoc.jpeg" : "/doctorPics/womanDoc.jpeg"}
         alt={`${doctor.first_name} ${doctor.last_name}`}
       />
     </div>

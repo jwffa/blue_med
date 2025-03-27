@@ -3,21 +3,21 @@ const icons = [
   {
     id: 1,
     title: "pic1",
-    src: "../../components/howWork/pic/pic1.png",
+    src: "/picHow/pic1.png",
     firstText: "აირჩიე მიმართულება",
     secondText: "აირჩიე შენთვის საჭირო მიმართულება"
   },
   {
     id: 2,
     title: "pic2",
-    src: "../../components/howWork/pic/pic2.png",
+    src: "/picHow/pic2.png",
     firstText: "აირჩიე ექიმი",
     secondText: "გაეცანი ექიმის პროფილს და სხვა მომხმარებლების მიერ დატოვებულ შეფასებებს"
   },
   {
     id: 3,
     title: "pic3",
-    src: "../../components/howWork/pic/pic3.png",
+    src: "/picHow/pic3.png",
     firstText: "აირჩიე მომსახურება",
     secondText: "მიუთითე მომსახურების ტიპი, დრო და ადგილი"
   }
@@ -32,7 +32,7 @@ const HowWork = () => {
           <p className='text-[#0b2849] font-poppins text-base max-w-[450px]'>
             გაეცანი bluemed-ის გამოყენების ინსტრუქციას და დაჯავშნე სასურველი სერვისი მარტივად
           </p>
-          <img className='self-center mt-5' src="../../components/howWork/pic/how.png" alt="how-it-works" />
+          <img className='self-center mt-5' src="/picHow/how.png" alt="how-it-works" />
         </div>
 
         <div className='w-full md:w-auto'>

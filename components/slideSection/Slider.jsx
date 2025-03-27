@@ -5,18 +5,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // desktop images array
 const images = [
-  "../../images/1.jpeg",
-  "../../images/41.jpeg",
-  "../../images/45.jpeg",
-  "../../images/49.jpeg",
+  "/images/1.jpeg",
+  "/images/41.jpeg",
+  "/images/45.jpeg",
+  "/images/49.jpeg",
 ];
 
 // mobile images array
 const imagesOnPhone = [
-  "../../images/29.jpeg",
-  "../../images/43.jpeg",
-  "../../images/47.jpeg",
-  "../../images/51.jpeg",
+  "/images/29.jpeg",
+  "/images/43.jpeg",
+  "/images/47.jpeg",
+  "/images/51.jpeg",
 ];
 
 const SliderSection = () => {

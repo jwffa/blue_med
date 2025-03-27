@@ -21,7 +21,7 @@ const Blog = () => {
 
       <div className='cursor-pointer w-[250px] md:w-[300px] rounded-xl mt-6'>
         <Link className='w-[350px]' to='/blog-1' onClick={handleClick}>
-          <img className='w-full rounded-xl' src="../../components/blog/pic/blog1.jpg" alt="blog"/>
+          <img className='w-full rounded-xl' src="/picBlog/blog1.jpg" alt="blog"/>
           <p className='font-poppins text-[#0b2849] whitespace-nowrap overflow-hidden text-ellipsis font-bold text-[17px] mt-3'>მაღალი წნევის კონტროლის 10 გზა მედიკამენტების გარეშე</p>
           <p className='font-poppins text-[#00000080] text-sm mt-2'>ცხოვრების წესი მნიშვნელოვან როლს ასრულებს მაღალი წნევის მკურნალობაში.</p>
         </Link>
